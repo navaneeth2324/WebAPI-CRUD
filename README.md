@@ -33,7 +33,8 @@ This project is a CRUD (Create, Read, Update, Delete) Web API built with .NET 8.
 3. **Apply Migrations**:
    Run the following commands to apply migrations and create the database.
  ```
-  dotnet ef migrations add InitialCreate dotnet ef database update
+  dotnet ef migrations add InitialCreate 
+  dotnet ef database update
  ```
 
 ### Running the Application
