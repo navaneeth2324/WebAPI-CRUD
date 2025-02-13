@@ -24,7 +24,8 @@ This project is a CRUD (Create, Read, Update, Delete) Web API built with .NET 8.
    Modify the `appsettings.json` file to include your SQL Server connection string.
 ```
 { 
-	"ConnectionStrings": { "DefaultConnection": "Server=YOUR_SERVER;Database=CrudApiDb;Trusted_Connection=True;TrustServerCertificate=True" }, "Jwt": { "Key": "your_secret_key", "Issuer": "your_issuer", "Audience": "your_audience" },
+	"ConnectionStrings": { "DefaultConnection": "Server=YOUR_SERVER;Database=CrudApiDb;Trusted_Connection=True;TrustServerCertificate=True" },
+	"Jwt": { "Key": "your_secret_key", "Issuer": "your_issuer", "Audience": "your_audience" },
 	"Logging": { "LogLevel": { "Default": "Information", "Microsoft.AspNetCore": "Warning" } },
 	"AllowedHosts": "*" 
 }
